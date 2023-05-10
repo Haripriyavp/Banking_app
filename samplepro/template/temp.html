@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .main{
+    width:600px;
+    height:500px;
+    padding:100px 470px;
+    }
+    body{
+    font-family: Arial,Helvetica, sans-serif;
+    }
+    button{
+    background-color: #04AA6D;
+    color:white;
+    padding:14px 20px;
+    margin:8px 0;
+    border:none;
+    cursor:pointer;
+    }
+    button:hover{
+    opacity:0.8;}
+    .container{
+    padding:16px;
+    }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="container"style="background-color:#f1f1f1">
+    <h2> You have Logged in Succesfully</h2>
+    <h4>For Adding Personal Details Click On The Below Button</h4>
+    <button type="submit"><a href="{% url 'add_details' %}">Click Here</a></button>
+    </div>
+
+
+</div>
+</body>
+</html>
